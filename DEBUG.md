@@ -6,3 +6,4 @@ J’ai supprimé le depends_on: backend de la configuration du service Redis. Ce
 
 Celia - 13:48
 Erreur : Bind for 0.0.0.0:5432 failed: port is already allocated.
+J'ai changé de port => 5434:5432
