@@ -10,5 +10,9 @@ J'ai changé de port => 5434:5432
 
 Celia - 14:18
 Le fichier Python contenant les classes de données était mal nommé (model.py).
-
 Solution : Renommer le fichier en models.py pour que Python puisse charger la classe Task.
+
+Noussaiba -
+La variable d'environnement REDIS_URL était absente du fichier docker-compose.yml alors que le code Python l'exigeait.
+
+- Solution : Ajout de la variable REDIS_URL pointant vers le service redis dans le docker-compose.yml.
