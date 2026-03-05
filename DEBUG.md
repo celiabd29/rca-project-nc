@@ -7,3 +7,8 @@ J’ai supprimé le depends_on: backend de la configuration du service Redis. Ce
 Celia - 13:48
 Erreur : Bind for 0.0.0.0:5432 failed: port is already allocated.
 J'ai changé de port => 5434:5432
+
+Celia - 14:18
+Le fichier Python contenant les classes de données était mal nommé (model.py).
+
+Solution : Renommer le fichier en models.py pour que Python puisse charger la classe Task.
